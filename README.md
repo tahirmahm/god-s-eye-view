@@ -26,6 +26,15 @@ Photorealistic 3D globe. Live aircraft, ships, satellites, earthquakes, traffic,
 
 ⚡ **Start without API keys.** Install with [Pinokio](https://pinokio.co/apps/github-com-bilawalsidhu-gods-eye-view) or run locally from the terminal. Add optional keys inside the app. **[→ Quick Start](#-quick-start)**
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/tahirmahm/god-s-eye-view)
+
+> This fork adds Vercel deploy config (`vercel.json`). The static app and the
+> two client-side providers (Google Maps / Cesium ion) deploy and work as-is —
+> the live-data proxy layer (flights, ships, satellites, cameras, voice AI,
+> ...) needs porting to Vercel Serverless Functions first; see
+> **[DEPLOYMENT.md](DEPLOYMENT.md)** for exactly what works today and what's
+> left to do.
+
 </div>
 
 ---
